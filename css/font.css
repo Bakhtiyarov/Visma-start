@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(../font/PTSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url(../font/PTSans-Regular.ttf);
+    font-weight: 400;
+}
