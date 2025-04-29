@@ -14,7 +14,7 @@ a {
 }
 
 .container {
-    width: min(1290, 100%);
+    width: min(1335px, 100%);
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
