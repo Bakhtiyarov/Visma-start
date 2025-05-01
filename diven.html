@@ -50,7 +50,9 @@
     <main>
         <section class="diven">
             <div class="container">
-                <h1 class="diven__title">Запрос ставки и условий погрузочно-разгрузочных работ</h1>
+                <div class="diven__big-title">
+                    <h1 class="diven__title">Запрос ставки и условий погрузочно-разгрузочных работ</h1>
+                </div>
                 <div class="diven__big">
                     <div class="diven__inputs">Наименование груза *
                         <input type="text" class="diven__input">
@@ -65,9 +67,6 @@
                         <input type="text" class="diven__input">
                     </div>
                     <div class="diven__inputs">Размер судовой партии
-                        <input type="text" class="diven__input">
-                    </div>
-                    <div class="diven__inputs">Дополнительная информация о грузе:
                         <input type="text" class="diven__input">
                     </div>
                     <div class="diven__inputs">Размер партии *
@@ -85,12 +84,46 @@
                     <div class="diven__inputs">Опасность груза (класс)
                         <input type="text" class="diven__input">
                     </div>
+                    <div class="diven__inputs">Дополнительная информация о грузе:
+                        <input type="text" class="diven__input diven__big-input">
+                    </div>
                     <div class="diven__inputs">Прикрепить файл
-                        <input type="file" class="diven__input">
+                        <input type="file" class="diven__file">
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="techno">
+            <div class="container">
+                <h3 class="techno__title">Просим сообщить:</h3>
+                <form class="techno__inputs">
+                    <div class="techno__fam">
+                        <input type="checkbox" class="techno__text">
+                        <p class="techno__txt">Ставку ПРР</p>
+                    </div>
+                    <div class="techno__fam">
+                        <input type="checkbox" class="techno__text">
+                        <p class="techno__txt">Срок технологического накопления груза</p>
+                    </div>
+                    <div class="techno__fam">
+                        <input type="checkbox" class="techno__text">
+                        <p class="techno__txt">Ставку хранения груза сверх срока технологического накопления</p>
+                    </div>
+                    <div class="techno__fam">
+                        <input type="checkbox" class="techno__text">
+                        <p class="techno__txt">Возможность приёма и перевалки груза в указанные сроки</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container">
+                <h3 class="info__title">Просим сообщить:</h3>
+            </div>
+        </section>
+
     </main>
 
 </body>

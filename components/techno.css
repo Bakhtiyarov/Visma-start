@@ -1,0 +1,32 @@
+.techno {
+    margin-bottom: 500px;
+
+    .container {
+        width: min(1100px, 100%);
+    }
+}
+
+.techno__title {
+    font-weight: 700;
+    font-size: 27px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.techno__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.techno__fam {
+    display: flex;
+    gap: 15px;
+}
+
+.techno__txt {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
