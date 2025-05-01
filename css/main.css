@@ -1,11 +1,16 @@
 @import url(common.css);
 @import url(font.css);
 
-/* components */
 
+/* components */
 @import url(../components/nav.css);
 @import url(../components/header.css);
 @import url(../components/menu.css);
 @import url(../components/company.css);
 @import url(../components/news.css);
 @import url(../components/footer.css);
+
+
+/* client.html */
+@import url(../components/header-client.css);
+@import url(../components/client-speech.css);

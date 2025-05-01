@@ -1,0 +1,16 @@
+.header__client {
+    padding: 25px 0;
+    background: rgb(245, 245, 249);
+}
+
+.heder__client-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__client-link {
+    font-weight: 700;
+    font-size: 13px;
+    color: #333;
+}
