@@ -1,0 +1,8 @@
+.diven__big {
+    
+}
+
+.diven__inputs {
+    display: flex;
+    flex-direction: column;
+}
