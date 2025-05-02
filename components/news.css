@@ -71,3 +71,16 @@
     line-height: 140%;
     color: #333;
 }
+
+@media (width <= 1326px) {
+    .news__grids {
+        grid-template-columns: repeat(2, 2fr);
+        place-items: center;
+    }
+}
+
+@media (width <= 671px) {
+    .news__grids {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

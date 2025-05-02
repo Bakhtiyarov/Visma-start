@@ -1,6 +1,9 @@
-.diven__big {
-    padding-bottom: 60px;
+.diven {
+    .container {
+        width: min(1100px, 100%);
+    }
 }
+
 
 .diven__big-title {
     display: flex;
@@ -31,13 +34,14 @@
 .diven__input {
     border: 1px solid #33333333;
     border-radius: 5px;
-    padding: 9.5px 0;
+    padding: 9.5px 0 9.5px 8px;
 }
 
 .diven__big {
     display: grid;
     grid-template-columns: repeat(2, 6fr);
     place-items: center;
+    padding-bottom: 60px;
 }
 
 input[type="file"] {
@@ -51,6 +55,6 @@ input[type="file"] {
 }
 
 .diven__big-input {
-    padding: 50px 0;
+    padding-bottom: 90px;
 }
 

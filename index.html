@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +14,16 @@
         <div class="container">
             <a href="index.html" class="nav__link-logo"><img src="img/nav-header/visma-logo.svg" alt=""
                     class="nav__logo"></a>
-            <ul class="nav__list">
-                <li class="nav__item"><a href="!#" class="nav__link">О компании</a></li>
-                <li class="nav__item"><a href="client.html" class="nav__link">Клиентам</a></li>
-                <li class="nav__item"><a href="diven.html" class="nav__link">Запрос</a></li>
-                <li class="nav__item"><a href="!#" class="nav__link">Услуги</a></li>
-                <li class="nav__item"><a href="!#" class="nav__link">Описание</a></li>
-                <li class="nav__item"><a href="!#" class="nav__link">Контакты</a></li>
-            </ul>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="!#" class="nav__link">О компании</a></li>
+                    <li class="nav__item"><a href="client.html" class="nav__link">Клиентам</a></li>
+                    <li class="nav__item"><a href="diven.html" class="nav__link">Запрос</a></li>
+                    <li class="nav__item"><a href="!#" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="!#" class="nav__link">Описание</a></li>
+                    <li class="nav__item"><a href="!#" class="nav__link">Контакты</a></li>
+                </ul>
+            </div>
             <div class="nav__big">
                 <img src="img/nav-header/search.svg" alt="" class="nav__search">
                 <input type="text" placeholder="Поиск..." class="nav__input">
@@ -30,11 +33,13 @@
                     <option value="UZ">UZ</option>
                 </select>
             </div>
+            <div class="nav__burger">
+                <div class="nav__burger-line"></div>
+            </div>
         </div>
     </nav>
 
     <header class="header">
-        <img src="img/nav-header/header-bg.png" alt="" class="header__bg">
         <div class="container">
             <div class="header__first">
                 <h2 class="header__title">Тавимский морской порт VISMA</h2>
@@ -46,23 +51,28 @@
                     <img src="img/nav-header/arrow.svg" alt="" class="header__img-next">
                 </div>
             </div>
-            <div class="header__grids">
-                <div class="header__grid">
-                    <p class="header__grid-txt">услуги</p>
-                    <h2 class="header__grid-title">Погрузочно-разгрузочная деятельность</h2>
+            <div class="header__menu">
+                <div class="header__grids">
+                    <div class="header__grid">
+                        <p class="header__grid-txt">услуги</p>
+                        <h2 class="header__grid-title">Погрузочно-разгрузочная деятельность</h2>
+                    </div>
+                    <div class="header__grid">
+                        <p class="header__grid-txt">услуги</p>
+                        <h2 class="header__grid-title">Хранение <br> грузов</h2>
+                    </div>
+                    <div class="header__grid">
+                        <p class="header__grid-txt">услуги</p>
+                        <h2 class="header__grid-title">Складские <br> операции</h2>
+                    </div>
+                    <div class="header__grid">
+                        <p class="header__grid-txt">услуги</p>
+                        <h2 class="header__grid-title">Швартовые <br> операции</h2>
+                    </div>
                 </div>
-                <div class="header__grid">
-                    <p class="header__grid-txt">услуги</p>
-                    <h2 class="header__grid-title">Хранение <br> грузов</h2>
-                </div>
-                <div class="header__grid">
-                    <p class="header__grid-txt">услуги</p>
-                    <h2 class="header__grid-title">Складские <br> операции</h2>
-                </div>
-                <div class="header__grid">
-                    <p class="header__grid-txt">услуги</p>
-                    <h2 class="header__grid-title">Швартовые <br> операции</h2>
-                </div>
+            </div>
+            <div class="header__burger">
+                <div class="header__burger-line"></div>
             </div>
         </div>
     </header>
@@ -273,6 +283,7 @@
         </div>
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
 
 </html>

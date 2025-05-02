@@ -83,3 +83,22 @@
     color: #fff;
     margin-top: 38px;
 }
+
+@media (width <=1226px) {
+    .company {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .company__title {
+        text-align: center;
+    }
+}
+
+@media (width <=691px) {
+    .company__first {
+        width: min(450px, 100%);
+    }
+}
