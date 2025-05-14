@@ -1,10 +1,6 @@
 .menu {
     margin: 250px 0 150px;
 
-    @media (width <= 1166px) {
-        margin-top: 450px;
-    }
-
     .container {
         display: flex;
         justify-content: space-between;
@@ -73,7 +69,7 @@
     color: #fff;
 }
 
-@media (width <= 1181px) {
+@media (width <=1181px) {
     .menu {
         .container {
             flex-direction: column;
@@ -87,15 +83,9 @@
     }
 }
 
-@media (width <= 650px) {
+@media (width <=650px) {
     .menu__grids {
         grid-template-columns: repeat(1, 1fr);
         place-items: center;
-    }
-}
-
-@media (width <= 700px) {
-    .menu {
-        margin-top: 200px;
     }
 }
